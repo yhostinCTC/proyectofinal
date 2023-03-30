@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(230, 240, 238);
+}
+
+#logo{
+    width: 80px;
+}
+
+.espacio-logo{
+    float: left;
+    left: 30px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.encabezado{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.encabezado a{
+    text-decoration: none;
+    color: rgb(61,61,61);
+
+}
+
+.encabezado a:hover{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.espacio-logo a:hover{
+    background-color: transparent;
+    padding: 0;
+}
+
+
+h1{
+    vertical-align: top;
+    margin-right: 35px;
+}
+
+.categoria{
+    padding-top: 10px;
+}
+
+.tarjetas{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.tarjetas a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.tarjeta{
+    width: 200px;
+    border:  2px solid rgb(33,32,32);
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tarjeta:hover{
+    border: 10px solid rgb(211, 154, 154);
+}
+
+.containerImgAnimal{
+    width: 100%;
+    background-color: white;
+    height: 280px;
+    position: relative;
+
+}
+
+.imgAnimal{
+    width: 90%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nombreAnimal{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
